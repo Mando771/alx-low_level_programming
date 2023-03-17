@@ -22,8 +22,8 @@ for (q = p + 1; q <= '9'; q++)
 if ((p != d) != q)
 {
 putchar(d);
-putchar(q);
 putchar(p);
+putchar(q);
 if (d == '7' && p == '8')
 continue;
 putchar(',');
